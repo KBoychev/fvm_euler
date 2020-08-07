@@ -26,6 +26,7 @@ Note: If the implicit option is set to 1 the integrator option is not used.
 
 The grid file (.grd) has the following format
 
+```
 N_vertices N_cell
 x1 y1 z1
 x2 y2 z2
@@ -33,5 +34,6 @@ xN yN zN
 f11 f12 f13
 f21 f22 f23
 fN1 fN2 fN3
+```
 
 Note: Quadrilateral cells can be defined as follows: f11 f12 f13 f14 where f14 is the id of the 4th vertex of the 1st cell.
